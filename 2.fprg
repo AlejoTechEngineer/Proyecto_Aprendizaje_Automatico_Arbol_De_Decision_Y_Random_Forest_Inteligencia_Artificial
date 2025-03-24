@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1"/>
+        <attribute name="authors" value="gran_"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-20 12:18:19 p.&#160;m."/>
+        <attribute name="created" value="Z3Jhbl87QUxFSk9MQVBUT1A7MjAyNS0wMy0yMDsxMjowNTozNCBwLsKgbS47MjkzNQ=="/>
+        <attribute name="edited" value="Z3Jhbl87QUxFSk9MQVBUT1A7MjAyNS0wMy0yMDsxMjoxODoxOSBwLsKgbS47MjszMDUx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="veces, i" type="Integer" array="False" size=""/>
+            <input variable="veces"/>
+            <for variable="i" start="1" end="veces" direction="inc" step="1">
+                <output expression="&quot;Debo hacer la tarea&quot;" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
