@@ -1,3 +1,5 @@
+<div align="center">
+
 # Árboles de Decisión y Random Forest — Aprendizaje Automático
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -7,6 +9,10 @@
 > Clasificación y regresión con Decision Tree y Random Forest: grid search, validación cruzada y análisis de feature importance.
 
 ## Descripción
+
+</div>
+
+---
 
 Implementación de modelos de **árbol de decisión (Decision Tree)** y **bosque aleatorio (Random Forest)** para tareas de clasificación y regresión en Python/Jupyter con scikit-learn. El proyecto incluye análisis exploratorio de datos, preprocesamiento, optimización de hiperparámetros con Grid Search, validación cruzada K-Fold y análisis de importancia de variables.
 
@@ -38,3 +44,12 @@ Accuracy · Precision · Recall · F1-Score · ROC-AUC · Confusion Matrix
 
 **Asignatura:** Aprendizaje Automático · **Institución:** UNIR · Ingeniería Informática
 **Autor:** Alejandro De Mendoza — Ingeniero Informático · Especialista en IA
+
+---
+
+## Autor
+
+**Alejandro De Mendoza**  
+Ingeniero Informático · Especialista en IA · Especialista en Ingeniería de Software · Máster en Arquitectura de Software
+
+[![GitHub](https://img.shields.io/badge/GitHub-AlejoTechEngineer-181717?style=for-the-badge&logo=github)](https://github.com/AlejoTechEngineer)
