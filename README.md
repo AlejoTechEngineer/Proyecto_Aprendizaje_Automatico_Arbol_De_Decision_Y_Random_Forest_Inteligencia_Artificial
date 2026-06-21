@@ -47,6 +47,22 @@ Accuracy · Precision · Recall · F1-Score · ROC-AUC · Confusion Matrix
 
 ---
 
+## Arquitectura
+
+```mermaid
+flowchart TD
+    A[ProyectoAprendizajeAutomatico.ipynb] --> B[EDA - Analisis Exploratorio]
+    B --> C[Preprocesamiento de Datos]
+    C --> D[Modelos ML]
+    D --> E[DecisionTreeClassifier]
+    D --> F[RandomForestClassifier]
+    E & F --> G[Grid Search + CV K-Fold]
+    G --> H[Metricas de Evaluacion]
+    H --> I[Accuracy / Precision / Recall / F1 / ROC-AUC]
+    H --> J[Confusion Matrix]
+    H --> K[Feature Importance]
+```
+
 ## Autor
 
 **Alejandro De Mendoza**  
