@@ -29,6 +29,22 @@ gs = GridSearchCV(RandomForestClassifier(), param_grid, cv=5, scoring="f1")
 gs.fit(X_train, y_train)
 ```
 
+## Arquitectura
+
+```mermaid
+flowchart TD
+    A[ProyectoAprendizajeAutomatico.ipynb] --> B[EDA - Analisis Exploratorio]
+    B --> C[Preprocesamiento de Datos]
+    C --> D[Modelos ML]
+    D --> E[DecisionTreeClassifier]
+    D --> F[RandomForestClassifier]
+    E & F --> G[Grid Search + CV K-Fold]
+    G --> H[Metricas de Evaluacion]
+    H --> I[Accuracy / Precision / Recall / F1 / ROC-AUC]
+    H --> J[Confusion Matrix]
+    H --> K[Feature Importance]
+```
+
 ## Contenido del repositorio
 
 | Archivo | Descripción |
@@ -46,22 +62,6 @@ Accuracy · Precision · Recall · F1-Score · ROC-AUC · Confusion Matrix
 **Autor:** Alejandro De Mendoza — Ingeniero Informático · Especialista en IA
 
 ---
-
-## Arquitectura
-
-```mermaid
-flowchart TD
-    A[ProyectoAprendizajeAutomatico.ipynb] --> B[EDA - Analisis Exploratorio]
-    B --> C[Preprocesamiento de Datos]
-    C --> D[Modelos ML]
-    D --> E[DecisionTreeClassifier]
-    D --> F[RandomForestClassifier]
-    E & F --> G[Grid Search + CV K-Fold]
-    G --> H[Metricas de Evaluacion]
-    H --> I[Accuracy / Precision / Recall / F1 / ROC-AUC]
-    H --> J[Confusion Matrix]
-    H --> K[Feature Importance]
-```
 
 ## Autor
 
